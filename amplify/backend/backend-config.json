@@ -21,5 +21,29 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "providerPlugin": "awscloudformation",
+      "service": "S3AndCloudFront"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_fetchHubble_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "fetchHubble"
+        }
+      ]
+    },
+    "AMPLIFY_function_fetchHubble_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "fetchHubble"
+        }
+      ]
+    }
   }
 }

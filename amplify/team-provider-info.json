@@ -25,8 +25,17 @@
       "AmplifyAppId": "d3na8rrc4tpyba"
     },
     "categories": {
+      "hosting": {
+        "S3AndCloudFront": {}
+      },
       "function": {
-        "fetchHubble": {}
+        "fetchHubble": {
+          "deploymentBucketName": "amplify-hubbleimageviewer-hubble-c83f6-deployment",
+          "s3Key": "amplify-builds/fetchHubble-52444441795358716339-build.zip"
+        }
+      },
+      "api": {
+        "hubbleApi": {}
       }
     }
   }
