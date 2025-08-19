@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hubbleimageviewer-dev-4455f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::506696706224:role/amplify-hubbleimageviewer-dev-4455f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::506696706224:role/amplify-hubbleimageviewer-dev-4455f-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-hubbleimageviewer-dev-4455f-deployment",
+      "UnauthRoleName": "amplify-hubbleimageviewer-dev-4455f-unauthRole",
+      "StackName": "amplify-hubbleimageviewer-dev-4455f",
+      "StackId": "arn:aws:cloudformation:us-east-1:506696706224:stack/amplify-hubbleimageviewer-dev-4455f/576c5d20-7c9b-11f0-9c79-0affc7af4029",
+      "AmplifyAppId": "d3na8rrc4tpyba"
+    }
+  }
+}
