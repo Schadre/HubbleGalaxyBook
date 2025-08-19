@@ -8,10 +8,10 @@ Deployed seamlessly with **AWS Amplify**.
 
 ## ✨ Features  
 
-- 📖 **Interactive Flipbook** – Turn pages just like a real book with [react-pageflip](https://www.npmjs.com/package/react-pageflip).  
-- 🎨 **Styled with Tailwind** – Modern and responsive design.  
-- 🪐 **Hubble Images** – Pulls in real NASA/Hubble telescope images and descriptions.  
-- ☁️ **AWS Amplify Hosting** – Free-tier hosting with HTTPS and CI/CD from GitHub.  
+📖 **Interactive Flipbook** – Turn pages just like a real book with [react-pageflip](https://www.npmjs.com/package/react-pageflip).  
+🎨 **Styled with Tailwind** – Modern and responsive design.  
+🪐 **Hubble Images** – Pulls in real NASA/Hubble telescope images and descriptions.  
+☁️ **AWS Amplify Hosting** – Free-tier hosting with HTTPS and CI/CD from GitHub.  
 
 ---
 

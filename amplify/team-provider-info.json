@@ -11,5 +11,23 @@
       "StackId": "arn:aws:cloudformation:us-east-1:506696706224:stack/amplify-hubbleimageviewer-dev-4455f/576c5d20-7c9b-11f0-9c79-0affc7af4029",
       "AmplifyAppId": "d3na8rrc4tpyba"
     }
+  },
+  "hubble": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hubbleimageviewer-hubble-c83f6-authRole",
+      "UnauthRoleArn": "arn:aws:iam::506696706224:role/amplify-hubbleimageviewer-hubble-c83f6-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::506696706224:role/amplify-hubbleimageviewer-hubble-c83f6-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-hubbleimageviewer-hubble-c83f6-deployment",
+      "UnauthRoleName": "amplify-hubbleimageviewer-hubble-c83f6-unauthRole",
+      "StackName": "amplify-hubbleimageviewer-hubble-c83f6",
+      "StackId": "arn:aws:cloudformation:us-east-1:506696706224:stack/amplify-hubbleimageviewer-hubble-c83f6/772bb1a0-7c9c-11f0-978b-0affca34ba27",
+      "AmplifyAppId": "d3na8rrc4tpyba"
+    },
+    "categories": {
+      "function": {
+        "fetchHubble": {}
+      }
+    }
   }
 }

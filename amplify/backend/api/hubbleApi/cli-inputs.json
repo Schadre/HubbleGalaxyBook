@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/hubble": {
+      "name": "/hubble",
+      "lambdaFunction": "fetchHubble",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}
