@@ -1,11 +1,10 @@
-version: 1
 frontend:
   phases:
     preBuild:
       commands:
         - nvm install 20
         - nvm use 20
-        - corepack enable
+        - corepack enable 
         - npm ci
     build:
       commands:
