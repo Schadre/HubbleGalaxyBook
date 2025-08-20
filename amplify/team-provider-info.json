@@ -15,7 +15,7 @@
       "function": {
         "Hubble": {
           "deploymentBucketName": "amplify-hubble-dev-d044f-deployment",
-          "s3Key": "amplify-builds/Hubble-39644366394b66486270-build.zip"
+          "s3Key": "amplify-builds/Hubble-776c626d416e48325348-build.zip"
         }
       },
       "api": {

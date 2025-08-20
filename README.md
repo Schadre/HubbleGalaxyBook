@@ -35,5 +35,5 @@ Deployed seamlessly with **AWS Amplify**.
 ### 1️⃣ Clone the repo  
 
 ```bash
-git clone https://github.com/your-username/hubble-flipbook.git
-cd hubble-flipbook
+git clone https://github.com/Schadre/HubbleGalaxyBook.git
+cd HubbleGalaxyBook
