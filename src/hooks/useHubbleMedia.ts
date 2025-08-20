@@ -16,7 +16,7 @@ export function useHubbleMedia() {
         const fetchHubble = async () => {
             try {
                 const res = await fetch(
-                  "https://qsvdfm3el9.execute-api.us-east-1.amazonaws.com/dev"
+                  "https://qsvdfm3el9.execute-api.us-east-1.amazonaws.com/dev/hubble"
                 );
                 if (!res.ok) throw new Error(`Failed to fetch Hubble images. Status: ${res.status}`);
                 const json: HubbleMedia[] = await res.json();
