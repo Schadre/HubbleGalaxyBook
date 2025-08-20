@@ -16,20 +16,12 @@ export function useHubbleMedia() {
         const fetchHubble = async () => {
             try {
                 const res = await fetch(
-                  "https://images-api.nasa.gov/search?q=hubble&media_type=image"
+                  "https://qsvdfm3el9.execute-api.us-east-1.amazonaws.com/dev"
                 );
                 if (!res.ok) throw new Error(`Failed to fetch Hubble images. Status: ${res.status}`);
-                const json = await res.json();
+                const json: HubbleMedia[] = await res.json();
 
-                const items: HubbleMedia[] = json.collection.items.map(
-                    (item: any, index: number) => ({
-                    id: String(index),
-                    title: item.data?.[0]?.title || "Untitled",
-                    description: item.data?.[0]?.description || "No description available",
-                    url: item.links?.[0]?.href || "",
-                  }));
- 
-                setData(items.slice(0, 100));
+                setData(json.slice(0, 100));
             } catch (err: any) {
                 setError(err.message);
             } finally {

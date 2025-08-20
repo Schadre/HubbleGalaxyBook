@@ -1,0 +1,43 @@
+{
+  "api": {
+    "hubble": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "Hubble"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "Hubble": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_Hubble_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "Hubble"
+        }
+      ]
+    },
+    "AMPLIFY_function_Hubble_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "Hubble"
+        }
+      ]
+    }
+  }
+}

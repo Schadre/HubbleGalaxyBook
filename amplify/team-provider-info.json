@@ -1,0 +1,26 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-hubble-dev-d044f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::506696706224:role/amplify-hubble-dev-d044f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::506696706224:role/amplify-hubble-dev-d044f-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-hubble-dev-d044f-deployment",
+      "UnauthRoleName": "amplify-hubble-dev-d044f-unauthRole",
+      "StackName": "amplify-hubble-dev-d044f",
+      "StackId": "arn:aws:cloudformation:us-east-1:506696706224:stack/amplify-hubble-dev-d044f/575366c0-7d73-11f0-9e04-12d7047036e1",
+      "AmplifyAppId": "d3jjow7n0cfyep"
+    },
+    "categories": {
+      "function": {
+        "Hubble": {
+          "deploymentBucketName": "amplify-hubble-dev-d044f-deployment",
+          "s3Key": "amplify-builds/Hubble-74654550596d75677137-build.zip"
+        }
+      },
+      "api": {
+        "hubble": {}
+      }
+    }
+  }
+}
