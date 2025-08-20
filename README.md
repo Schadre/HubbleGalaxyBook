@@ -30,6 +30,10 @@ Deployed seamlessly with **AWS Amplify**.
 
 ---
 
+`` Website: https://main.d1npc29bd61end.amplifyapp.com/ ``
+
+---
+
 ## 🚀 Getting Started  
 
 ### 1️⃣ Clone the repo  
