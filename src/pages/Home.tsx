@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
 import HTMLFlipBook from "react-pageflip";
 import { useHubbleMedia } from "../hooks/useHubbleMedia";
 
@@ -30,6 +30,7 @@ export default function Home() {
       <div className="flex flex-col justify-center items-start gap-8 w-full max-w-[1200px]">
         <div className="w-64 flex flex-col text-stone-300 space-y-4"></div>
       </div>
+      
       <HTMLFlipBook
         width={500}
         height={700}
@@ -38,11 +39,23 @@ export default function Home() {
         maxWidth={1000}
         minHeight={400}
         maxHeight={1536}
-        drawShadow
+        drawShadow={true}
         maxShadowOpacity={0.5}
+        showCover={true}
+        startZIndex={0}
+        autoSize={true}
+        mobileScrollSupport={true}
+        clickEventForward={true}
+        style={{}}
+        useMouseEvents={true}
+        swipeDistance={30}
+        showPageCorners={true}
+        disableFlipByClick={false}
+        startPage={0}
+        flippingTime={1000}
+        usePortrait={true}
         className="shadow-2xl rounded-2xl bg-stone-900"
         ref={bookRef}
-        showCover={true}
         onFlip={() => setPage(bookRef.current.pageFlip().getCurrentPageIndex())}
       >
         <div className="flex flex-col items-center justify-center p-10 text-center bg-gradient-to-b from-stone-950 to-stone-900 rounded-2xl">

@@ -31,7 +31,7 @@
       "function": {
         "fetchHubble": {
           "deploymentBucketName": "amplify-hubbleimageviewer-hubble-c83f6-deployment",
-          "s3Key": "amplify-builds/fetchHubble-52444441795358716339-build.zip"
+          "s3Key": "amplify-builds/fetchHubble-6d436d4b4d5535702f4c-build.zip"
         }
       },
       "api": {
