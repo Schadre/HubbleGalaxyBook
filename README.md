@@ -30,7 +30,7 @@ Deployed seamlessly with **AWS Amplify**.
 
 ---
 
-`` Website: https://main.d1npc29bd61end.amplifyapp.com/ ``
+[Hubble Galaxy Book Website](https://main.d1npc29bd61end.amplifyapp.com/)
 
 ---
 
